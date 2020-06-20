@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dave Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Robot+Slab:400,700&
+      display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Tangerine|Roboto:400,900&
+          display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/cca243d020.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" areia aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <!-- double underscore indicates that this item is part of another item, intended for use with CSS -->
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        <strong>Forever and Beyond</strong> Events
+      </h1>
+
+      <!-- double hyphen, there will be multiple section__title's this provides the ability to change just this element by class -->
+      <p class="section__subtitle section__subtitle--intro">
+        Events for your life
+      </p>
+      <img
+        src="img/whiteRoses.jpg"
+        height="350"
+        width="200"
+        alt="a picture of Dave Pettit smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Our services</h2>
+      <div class="services">
+        <div class="service">
+          <h2>Wedding</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+            tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrum exercitationem ullam corporis suscipit
+            laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute
+            iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt
+            in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <!-- service -->
+
+        <div class="service">
+          <h2>Parties</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+            tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrum exercitationem ullam corporis suscipit
+            laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute
+            iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt
+            in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <!-- service -->
+
+        <div class="service">
+          <h2>Meetings</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+            tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrum exercitationem ullam corporis suscipit
+            laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute
+            iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt
+            in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <!-- service -->
+      </div>
+      <!-- services -->
+      <a href="#work" class="btn">Gallery</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About Us</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Event Planner based out of London Ontario Canada.
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+          tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrum exercitationem ullam corporis suscipit
+          laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+          tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrum exercitationem ullam corporis suscipit
+          laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <img
+        src="img/FBEvents.jpg"
+        height="300"
+        width="200"
+        alt="Dave in black and white."
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work.
+      </p>
+      <div class="portfolio">
+        <!-- Portfolio Item 01-->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/birthdayCake.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio Item 01-->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/candiesInJar.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio Item 02-->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/candles.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio Item 03-->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/candlesYellowFlower.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <a href="mailto:forever.beyondevents@gmail.com" class="footer-link"
+        >forever.beyondevents@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/foreverbeyondevents/"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/foreverbeyondevents/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
